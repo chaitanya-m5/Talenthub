@@ -72,12 +72,6 @@ TalentHub/
 └── README.md
 ```
 
-## Important notes before production
-- JSON storage is intended for a classroom prototype. Replace it with MySQL/PostgreSQL and add migrations for real deployment.
-- Add authentication, password hashing, session/token handling and server-side role authorization before exposing the system.
-- Validate all input, add audit logs, pagination, rate limiting, secure headers and automated tests.
-- Eligibility rules shown here use the scenario's example fields. The approved institutional placement policy must define the final rules.
-- Demo profiles and company records are fictional sample data.
 
 ## Useful demo path
 1. Open **Explore jobs** and choose a student from the selector.
