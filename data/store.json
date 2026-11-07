@@ -1,0 +1,28 @@
+{
+  "students": [
+    {"id":1,"name":"Rahul Sharma","email":"rahul@campus.edu","branch":"CSE","cgpa":8.2,"backlogs":1,"semester":6},
+    {"id":2,"name":"Ananya Rao","email":"ananya@campus.edu","branch":"IT","cgpa":9.1,"backlogs":0,"semester":6},
+    {"id":3,"name":"Arjun Patel","email":"arjun@campus.edu","branch":"ECE","cgpa":7.4,"backlogs":2,"semester":6},
+    {"id":4,"name":"Meera Nair","email":"meera@campus.edu","branch":"CSE","cgpa":6.8,"backlogs":0,"semester":6},
+    {"id":5,"name":"Dev Kumar","email":"dev@campus.edu","branch":"AIML","cgpa":8.7,"backlogs":0,"semester":8}
+  ],
+  "companies": [
+    {"id":1,"name":"ABC Technologies","industry":"Software & Cloud","email":"talent@abc.example"},
+    {"id":2,"name":"Nexa Systems","industry":"IT Services","email":"careers@nexa.example"},
+    {"id":3,"name":"Orbit Analytics","industry":"Data & AI","email":"jobs@orbit.example"}
+  ],
+  "jobs": [
+    {"id":1,"companyId":1,"title":"Graduate Software Engineer","location":"Bengaluru · Hybrid","package":"₹8.5 LPA","minCgpa":7.0,"maxBacklogs":2,"branches":["CSE","IT","ECE","AIML"],"description":"Build reliable products with a collaborative engineering team.","type":"Full-time","status":"Open"},
+    {"id":2,"companyId":2,"title":"Associate Systems Engineer","location":"Hyderabad · On-site","package":"₹6.2 LPA","minCgpa":7.5,"maxBacklogs":1,"branches":["CSE","IT","ECE"],"description":"Work across application engineering, cloud and platform operations.","type":"Full-time","status":"Open"},
+    {"id":3,"companyId":3,"title":"Junior Data Analyst","location":"Remote · India","package":"₹7.0 LPA","minCgpa":8.0,"maxBacklogs":0,"branches":["CSE","IT","AIML"],"description":"Turn data into clear insights and useful business decisions.","type":"Full-time","status":"Open"},
+    {"id":4,"companyId":1,"title":"Frontend Developer Intern","location":"Bengaluru · Hybrid","package":"₹35k / month","minCgpa":6.5,"maxBacklogs":3,"branches":["CSE","IT","ECE","AIML"],"description":"Create accessible, responsive interfaces for real users.","type":"Internship","status":"Open"}
+  ],
+  "applications": [
+    {"id":1,"studentId":1,"jobId":1,"status":"Shortlisted","appliedAt":"2026-10-28"},
+    {"id":2,"studentId":2,"jobId":1,"status":"Interview Scheduled","appliedAt":"2026-10-29"},
+    {"id":3,"studentId":3,"jobId":2,"status":"Applied","appliedAt":"2026-10-30"},
+    {"id":4,"studentId":5,"jobId":3,"status":"Offer Issued","appliedAt":"2026-10-31"}
+  ],
+  "interviews":[{"id":1,"applicationId":2,"date":"2026-11-12","time":"10:30","mode":"Online","result":"Pending"}],
+  "offers":[{"id":1,"applicationId":4,"package":"₹7.0 LPA","status":"Pending"}]
+}
